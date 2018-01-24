@@ -8,7 +8,7 @@ def initialize(word)
 end
 
 def match(array) #array = possible anagrams
-
+  matches = []
 return #all matches
 end
 
