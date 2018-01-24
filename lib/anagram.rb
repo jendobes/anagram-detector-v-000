@@ -10,7 +10,7 @@ end
 def match(array) #array = possible anagrams
   matches = []
   array.each do |w|
-    if word is an anagram for w
+    if w.split("").sort == word.split("").sort
       matches << w
   end
 return matches
